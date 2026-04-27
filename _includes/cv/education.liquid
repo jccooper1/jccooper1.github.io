@@ -52,6 +52,12 @@
           </table>
         </div>
         <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+          <div class="d-flex align-items-start">
+            {% if entry.logo %}
+              {% assign logo_path = entry.logo | prepend: '/assets/img/' | relative_url %}
+              <img src="{{ logo_path }}" alt="{{ entry.institution }} logo" style="width: 40px; height: 40px; margin-right: 10px; margin-top: 2px; object-fit: contain;">
+            {% endif %}
+            <div>
           {% capture study_type %}
             {% if entry.studyType %}{{ entry.studyType }}{% elsif entry.degree %}{{ entry.degree }}{% endif %}
           {% endcapture %}
@@ -86,6 +92,8 @@
               {% endfor %}
             </ul>
           {% endif %}
+            </div>
+          </div>
         </div>
       </div>
     </li>

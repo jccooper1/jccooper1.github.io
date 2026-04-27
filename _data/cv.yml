@@ -2,9 +2,10 @@ cv:
   name: Jianchong Chen
   label: Incoming MSECE Student and Research Assistant
   location: Urbana, Illinois, United States
-  image: ""
+  image: uiuc_logo.svg
   summary: Jianchong Chen is a Computer Engineering student affiliated with Zhejiang University and the University of Illinois Urbana-Champaign. He will join UIUC's MSECE program in Fall 2026. He is a Research Assistant in the [Signals and Inference Research Group](https://sinrg.csl.illinois.edu/), where he is very fortunate to be advised by [Prof. Romit Roy Choudhury](https://croy.web.engr.illinois.edu/). His research interest is generative models.
 
+  email: jc131@illinois.edu
   website: https://jccooper1.github.io
 
   address:
@@ -25,14 +26,16 @@ cv:
         studyType: Master of Science in Electrical and Computer Engineering (MSECE)
         start_date: 2026-08
         end_date: present
+        logo: uiuc_logo.svg
 
       - institution: Zhejiang University
         location: Hangzhou, China
         url: https://www.zju.edu.cn/english/
         area: Computer Engineering
         studyType: Bachelor of Engineering
-        start_date: 2022-09
-        end_date: 2026-06
+        start_date: 2022
+        end_date: 2026
+        logo: zju_logo.svg
 
       - institution: University of Illinois Urbana-Champaign
         location: Urbana, IL, United States
@@ -41,6 +44,7 @@ cv:
         studyType: Bachelor of Science
         start_date: 2022
         end_date: 2026
+        logo: uiuc_logo.svg
 
     Experience:
       - company: University of Illinois Urbana-Champaign

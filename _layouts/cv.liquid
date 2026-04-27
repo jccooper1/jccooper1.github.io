@@ -61,9 +61,11 @@ layout: default
         {% assign cv = site.data.cv.cv %}
 
         <!-- Header/Contact Information -->
-        {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website %}
+        {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website or cv.image %}
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Contact Information</h3>
+            <div class="row">
+              <div class="col">
+                <h3 class="card-title font-weight-medium">Contact Information</h3>
             <table class="table table-cv table-sm table-borderless">
               {% if cv.name %}
                 <tr>
@@ -107,8 +109,16 @@ layout: default
                     <a href="{{ cv.website }}" target="_blank">{{ cv.website }}</a>
                   </td>
                 </tr>
+               {% endif %}
+             </table>
+              </div>
+              {% if cv.image %}
+                <div class="col-xs-3 col-sm-3 col-md-3 text-center d-flex align-items-center justify-content-center">
+                  {% assign cv_image_path = cv.image | prepend: '/assets/img/' | relative_url %}
+                  <img src="{{ cv_image_path }}" alt="University Logo" style="max-width: 100px; max-height: 100px;">
+                </div>
               {% endif %}
-            </table>
+            </div>
           </div>
         {% endif %}
 

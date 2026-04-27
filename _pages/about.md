@@ -6,7 +6,7 @@ subtitle: Research Assistant, <a href="https://sinrg.csl.illinois.edu/">Signals 
 
 profile:
   align: right
-  image: /Users/jianchong/jccooper1.github.io/a.png
+  image: jianchong_profile.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Urbana, Illinois, United States</p>
@@ -30,7 +30,6 @@ latest_posts:
 # Hi there! I'm Jianchong Chen 👋
 
 I am a Computer Engineering student in the joint program between **Zhejiang University** and the **University of Illinois Urbana-Champaign**. In Fall 2026, I will be continuing my academic journey at UIUC as an **MSECE** student.
-
 
 Currently, I am a Research Assistant in the [Signals and Inference Research Group (SiNRG)](https://sinrg.csl.illinois.edu/) at UIUC, where I am very fortunate to be advised by [Prof. Romit Roy Choudhury](https://croy.web.engr.illinois.edu/).
 
