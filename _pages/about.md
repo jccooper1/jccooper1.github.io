@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Assistant, Signals and Inference Research Group, University of Illinois Urbana-Champaign · Computer Engineering, Zhejiang University
+subtitle: Research Assistant, <a href="https://sinrg.csl.illinois.edu/">Signals and Inference Research Group</a>, University of Illinois Urbana-Champaign · Incoming MSECE student, Fall 2026
 
 profile:
   align: right
-  image:
+  image: /Users/jianchong/jccooper1.github.io/a.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Urbana, Illinois, United States</p>
@@ -27,8 +27,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Jianchong Chen, a Computer Engineering student affiliated with Zhejiang University and the University of Illinois Urbana-Champaign. I am a Research Assistant in the Signals and Inference Research Group at UIUC.
+# Hi there! I'm Jianchong Chen 👋
 
-My research interests are in machine learning, signal processing, and generative models. My recent work spans source separation, diffusion models, flow matching, NeRFs, text-to-image models, and their applications.
+I am a Computer Engineering student in the joint program between **Zhejiang University** and the **University of Illinois Urbana-Champaign**. In Fall 2026, I will be continuing my academic journey at UIUC as an **MSECE** student.
 
-You can find my publications on [Google Scholar](https://scholar.google.com/citations?user=mQVVQfwAAAAJ&hl=en), professional updates on [LinkedIn](https://www.linkedin.com/in/jianchong-chen-449225331/), and a structured academic record on my [CV](/cv/).
+
+Currently, I am a Research Assistant in the [Signals and Inference Research Group (SiNRG)](https://sinrg.csl.illinois.edu/) at UIUC, where I am very fortunate to be advised by [Prof. Romit Roy Choudhury](https://croy.web.engr.illinois.edu/).
+
+I am also completing my undergraduate thesis under the insightful guidance of [Prof. Bo Zhao](https://zjui.intl.zju.edu.cn/en/team/teacherinfo/2736), whose expertise in computational imaging and inverse problems has been foundational to my research.
+
+**Research Interest:** Generative Models.
+
+---
+
+### Connect with Me
+[**Google Scholar**](https://scholar.google.com/citations?user=mQVVQfwAAAAJ&hl=en) | [**LinkedIn**](https://www.linkedin.com/in/jianchong-chen-449225331/) | [**Curriculum Vitae**](/cv/)

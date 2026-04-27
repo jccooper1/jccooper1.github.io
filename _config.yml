@@ -9,13 +9,12 @@ last_name: Chen
 contact_note: >
   Find me on Google Scholar and LinkedIn for publications, updates, and professional contact.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Academic website for Jianchong Chen, a Computer Engineering student and research assistant working on machine learning,
-  signal processing, and generative models.
+  Academic website for Jianchong Chen, an incoming UIUC MSECE student and research assistant interested in generative models.
 footer_text: >
   © Jianchong Chen.
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Jianchong Chen, machine learning, signal processing, generative models, computer engineering # add your own keywords or leave empty
+keywords: Jianchong Chen, generative models, computer engineering # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -93,7 +92,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: research notes # blog_name will be displayed in your blog page
-blog_description: notes on machine learning, signal processing, and generative models
+blog_description: notes on generative models
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
