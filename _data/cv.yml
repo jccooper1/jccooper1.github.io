@@ -1,6 +1,6 @@
 cv:
   name: Jianchong Chen
-  label: Incoming MSECE Student and Research Assistant
+  label: Incoming MSECE Student
   location: Urbana, Illinois, United States
   image: uiuc_logo.svg
   summary: Jianchong Chen is a Computer Engineering student affiliated with Zhejiang University and the University of Illinois Urbana-Champaign. He will join UIUC's MSECE program in Fall 2026. He is a Research Assistant in the [Signals and Inference Research Group](https://sinrg.csl.illinois.edu/), where he is very fortunate to be advised by [Prof. Romit Roy Choudhury](https://croy.web.engr.illinois.edu/). His research interest is generative models.
@@ -49,13 +49,12 @@ cv:
     Experience:
       - company: University of Illinois Urbana-Champaign
         position: Research Assistant
-        location: Urbana, IL, United States
+        location: Urbana, IL, US
         start_date: 2024-12
         end_date: present
         summary: Research Assistant in the [Signals and Inference Research Group (SiNRG)](https://sinrg.csl.illinois.edu/), advised by [Prof. Romit Roy Choudhury](https://croy.web.engr.illinois.edu/).
         highlights:
           - Working on source separation, diffusion models, flow matching, NeRFs, text-to-image models, and their applications.
-          - Using PyTorch for machine learning research.
 
     Publications:
       - title: "CO3: Contrasting Concepts Compose Better"
