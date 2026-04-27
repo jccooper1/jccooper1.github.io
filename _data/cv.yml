@@ -20,7 +20,7 @@ cv:
   sections:
     Education:
       - institution: University of Illinois Urbana-Champaign
-        location: Urbana, IL, United States
+        location: Urbana, IL, US
         url: https://ece.illinois.edu/
         area: Electrical and Computer Engineering
         studyType: Master of Science in Electrical and Computer Engineering (MSECE)
@@ -38,7 +38,7 @@ cv:
         logo: zju_logo.svg
 
       - institution: University of Illinois Urbana-Champaign
-        location: Urbana, IL, United States
+        location: Urbana, IL, US
         url: https://illinois.edu/
         area: Computer Engineering
         studyType: Bachelor of Science
