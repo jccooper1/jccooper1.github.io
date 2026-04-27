@@ -1,189 +1,101 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Jianchong Chen
+  label: Computer Engineering Student and Research Assistant
+  location: Urbana, Illinois, United States
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Jianchong Chen is a Computer Engineering student affiliated with Zhejiang University and the University of Illinois Urbana-Champaign. His research focuses on machine learning, signal processing, and generative models, including source separation, diffusion models, flow matching, NeRFs, and text-to-image models.
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+  website: https://jccooper1.github.io
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    city: Urbana
+    region: Illinois
     countryCode: US
+
+  social_networks:
+    - network: LinkedIn
+      username: jianchong-chen-449225331
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Zhejiang University
+        location: Hangzhou, China
+        url: https://www.zju.edu.cn/english/
+        area: Computer Engineering
+        studyType: Bachelor of Engineering
+        start_date: 2022-09
+        end_date: 2026-06
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: University of Illinois Urbana-Champaign
+        location: Urbana, IL, United States
+        url: https://illinois.edu/
+        area: Computer Engineering
+        studyType: Undergraduate Student Affiliation
+        start_date: 2022
+        end_date: 2026
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: University of Illinois Urbana-Champaign
+        position: Research Assistant
+        location: Urbana, IL, United States
+        start_date: 2024-12
+        end_date: present
+        summary: Research Assistant in the Signals and Inference Research Group (SiNRG).
         highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - Working on source separation, diffusion models, flow matching, NeRFs, text-to-image models, and their applications.
+          - Using PyTorch for machine learning research.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "CO3: Contrasting Concepts Compose Better"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Debottam Dutta
+          - Jianchong Chen
+          - Rajalaxmi Rajagopalan
+          - Yu-Lin Wei
+          - Romit Roy Choudhury
+        publisher: International Conference on Learning Representations (ICLR 2026)
+        releaseDate: 2025
+        url: https://debottam-dutta7.github.io/co3_web/
+        summary: Work on improving concept composition in diffusion-based text-to-image generation.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Unsupervised Multi-channel Speech Dereverberation via Diffusion
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Yulun Wu
+          - Zhongweiyang Xu
+          - Jianchong Chen
+          - Zhong-Qiu Wang
+          - Romit Roy Choudhury
+        publisher: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)
+        releaseDate: 2025
+        url: https://yulunwu8.github.io/waspaa25_dereverb_demo/
+        summary: Work on unsupervised multi-channel speech dereverberation using diffusion models.
 
     Skills:
-      - name: Physics
-        level: Master
+      - name: Machine Learning
         icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords:
+          - diffusion models
+          - flow matching
+          - generative modeling
+          - text-to-image models
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Signal Processing
+        icon: fa-solid fa-wave-square
+        keywords:
+          - source separation
+          - speech dereverberation
+          - multi-channel audio
 
-      - name: English
-        summary: "Fluent"
+      - name: Tools
+        icon: fa-solid fa-code
+        keywords:
+          - PyTorch
 
     Interests:
-      - name: Physics
+      - name: Research
         icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        keywords:
+          - machine learning
+          - signal processing
+          - generative models
+          - NeRFs
