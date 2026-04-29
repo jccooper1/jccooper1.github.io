@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+show_header: false
 subtitle: Research Assistant, <a href="https://sinrg.csl.illinois.edu/">Signals and Inference Research Group</a>, University of Illinois Urbana-Champaign · Incoming MSECE student, Fall 2026
 
 profile:
@@ -27,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-# Hi there! I'm Jianchong Chen 👋
+Hi there! I'm Jianchong Chen 👋
 
 I am a Computer Engineering student in the joint program between **Zhejiang University** and the **University of Illinois Urbana-Champaign**. In Fall 2026, I will be continuing my academic journey at UIUC as an **MSECE** student.
 
