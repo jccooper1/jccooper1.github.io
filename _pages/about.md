@@ -3,16 +3,16 @@ layout: about
 title: about
 permalink: /
 show_header: false
-subtitle: Research Assistant, <a href="https://sinrg.csl.illinois.edu/">Signals and Inference Research Group</a>, University of Illinois Urbana-Champaign · Incoming MSECE student, Fall 2026
+subtitle: MSECE Student, University of Illinois Urbana-Champaign · Research Assistant, <a href="https://sinrg.csl.illinois.edu/">Signals and Inference Research Group</a>
 
 profile:
   align: right
   image: jianchong_profile.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Urbana, Illinois, United States</p>
-    <p><a href="https://scholar.google.com/citations?user=mQVVQfwAAAAJ&hl=en">Google Scholar</a></p>
-    <p><a href="https://www.linkedin.com/in/jianchong-chen-449225331/">LinkedIn</a></p>
+    <p><i class="fa-solid fa-location-dot"></i>&nbsp; Urbana, Illinois, United States</p>
+    <p><i class="fa-solid fa-graduation-cap"></i>&nbsp; MSECE Student, UIUC</p>
+    <p><i class="fa-solid fa-flask"></i>&nbsp; SiNRG Lab</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -30,15 +30,19 @@ latest_posts:
 
 Hi there! I'm Jianchong Chen 👋
 
-I am a Computer Engineering student in the joint program between **Zhejiang University** and the **University of Illinois Urbana-Champaign**. In Fall 2026, I will be continuing my academic journey at UIUC as an **MSECE** student.
+I'm a first-year **MSECE** student at the University of Illinois Urbana-Champaign, having just completed my undergraduate studies in the joint Computer Engineering program between **Zhejiang University** and **UIUC**.
 
-Currently, I am a Research Assistant in the [Signals and Inference Research Group (SiNRG)](https://sinrg.csl.illinois.edu/) at UIUC, where I am very fortunate to be advised by [Prof. Romit Roy Choudhury](https://croy.web.engr.illinois.edu/).
+I'm a Research Assistant in the [Signals and Inference Research Group (SiNRG)](https://sinrg.csl.illinois.edu/), where I'm very fortunate to be advised by [Prof. Romit Roy Choudhury](https://croy.web.engr.illinois.edu/). My work sits at the intersection of generative modeling and signal processing.
 
-I am also completing my undergraduate thesis under the insightful guidance of [Prof. Bo Zhao](https://zjui.intl.zju.edu.cn/en/team/teacherinfo/2736), whose expertise in computational imaging and inverse problems has been foundational to my research.
+I completed my undergraduate thesis under the guidance of [Prof. Bo Zhao](https://zjui.intl.zju.edu.cn/en/team/teacherinfo/2736), whose expertise in computational imaging and inverse problems shaped how I approach research.
 
-**Research Interest:** Generative Models.
+<div class="interest-tags">
+  <span>Diffusion Models</span>
+  <span>Flow Matching</span>
+  <span>Generative Modeling</span>
+  <span>Source Separation</span>
+</div>
 
 ---
 
-### Connect with Me
-[**Google Scholar**](https://scholar.google.com/citations?user=mQVVQfwAAAAJ&hl=en) | [**LinkedIn**](https://www.linkedin.com/in/jianchong-chen-449225331/) | [**Curriculum Vitae**](/cv/)
+<a class="btncv" href="/cv/"><i class="fa-solid fa-file-lines"></i>&nbsp; View my CV</a>
