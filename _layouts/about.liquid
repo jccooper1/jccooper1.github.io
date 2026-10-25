@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post about-page">
   {% unless page.show_header == false %}
     <header class="post-header">
       <h1 class="post-title">
@@ -75,8 +75,21 @@ layout: default
       </div>
     {% endif %}
 
+    <!-- Visitor map -->
+    {% if site.mapmyvisitors_id %}
+      <div class="visitor-map">
+        <script
+          type="text/javascript"
+          id="mapmyvisitors"
+          src="https://mapmyvisitors.com/map.js?d={{ site.mapmyvisitors_id }}&cl=ffffff&w=a"
+        ></script>
+      </div>
+    {% endif %}
+
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
   </article>
 </div>
+
+<script defer src="{{ '/assets/js/about-animations.js' | relative_url | bust_file_cache }}"></script>

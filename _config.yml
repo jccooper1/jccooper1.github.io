@@ -395,6 +395,10 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # Optional Features
 # -----------------------------------------------------------------------------
 
+# Visitor map on the about page (https://mapmyvisitors.com). Register the site there,
+# then copy the value after "d=" in the script they give you. Leave blank to hide the map.
+mapmyvisitors_id:
+
 enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)

@@ -231,6 +231,194 @@ ul.task-list input[type="checkbox"] {
     border-radius: 1rem;
     padding: 0.25rem 0.75rem;
     margin: 0 0.4rem 0.4rem 0;
+    transition:
+      transform 0.2s ease,
+      background-color 0.2s ease,
+      color 0.2s ease,
+      box-shadow 0.2s ease;
+
+    &:hover {
+      color: var(--global-hover-text-color);
+      background-color: var(--global-theme-color);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+  }
+}
+
+// About page
+
+.about-page {
+  .hero-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0.5rem 0 1.25rem;
+  }
+
+  .hero-name {
+    background: linear-gradient(90deg, var(--global-theme-color), #4f7cff, #e5487f, var(--global-theme-color));
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: hero-gradient 8s ease-in-out infinite;
+  }
+
+  .wave {
+    display: inline-block;
+    transform-origin: 70% 70%;
+    animation: wave 2.5s ease-in-out 0.6s 2;
+  }
+
+  .hero-title:hover .wave {
+    animation: wave 1.2s ease-in-out infinite;
+  }
+
+  // Small logo shown before a university name
+  .uni {
+    white-space: nowrap;
+  }
+
+  .uni-icon {
+    height: 1.15em;
+    width: 1.15em;
+    object-fit: contain;
+    vertical-align: -0.2em;
+    margin-right: 0.3em;
+    border-radius: 3px;
+    transition: transform 0.25s ease;
+  }
+
+  .uni:hover .uni-icon {
+    transform: scale(1.25) rotate(-6deg);
+  }
+
+  // The navy ZJU emblem disappears on a dark background
+  html[data-theme="dark"] & .uni-icon.round {
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  .profile img {
+    transition:
+      transform 0.35s ease,
+      box-shadow 0.35s ease;
+
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18) !important;
+    }
+  }
+
+  // Links in the bio get an underline that grows from the left
+  .clearfix p a {
+    text-decoration: none;
+    background-image: linear-gradient(var(--global-theme-color), var(--global-theme-color));
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s ease;
+
+    &:hover {
+      background-size: 100% 1px;
+    }
+  }
+
+  a.btncv {
+    display: inline-block;
+    transition:
+      color 0.2s ease,
+      background-color 0.2s ease,
+      transform 0.2s ease;
+
+    &:hover {
+      color: var(--global-hover-text-color) !important;
+      background-color: var(--global-theme-color);
+      transform: translateY(-2px);
+    }
+  }
+
+  .publications ol.bibliography > li {
+    border-radius: 0.5rem;
+    // Keep opacity/transform here too so the .reveal fade-in isn't overridden
+    transition:
+      background-color 0.25s ease,
+      box-shadow 0.25s ease,
+      opacity 0.6s ease,
+      transform 0.6s ease;
+
+    &:hover {
+      background-color: var(--global-card-bg-color);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    }
+  }
+
+  .social .contact-icons a {
+    display: inline-block;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
+
+  .visitor-map {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  // Scroll-in animation; the class is added by assets/js/about-animations.js
+  .reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition:
+      opacity 0.6s ease,
+      transform 0.6s ease;
+
+    &.is-visible {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+@keyframes hero-gradient {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes wave {
+  0%,
+  60%,
+  100% {
+    transform: rotate(0deg);
+  }
+  10%,
+  30% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-page *,
+  .interest-tags span {
+    animation: none !important;
+    transition: none !important;
   }
 }
 
