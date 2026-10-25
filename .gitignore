@@ -10,6 +10,7 @@ _site
 .venv
 assets/libs/
 assets/rendercv/rendercv_output/*.typ
+/rendercv_output/
 Gemfile.lock
 node_modules/
 vendor
