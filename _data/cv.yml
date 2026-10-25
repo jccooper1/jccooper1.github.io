@@ -57,7 +57,18 @@ cv:
           - Working on diffusion models, flow matching, NeRFs, text-to-image models, and their applications.
 
     Publications:
-      - title: "CO3: Contrasting Concepts Compose Better"
+      - title: "TILT: Improving Compositional Generation in Diffusion Models with a Model-Intrinsic Reward"
+        authors:
+          - Debottam Dutta
+          - Jianchong Chen
+          - Jaehoon Hahm
+          - Romit Roy Choudhury
+        publisher: Under review
+        releaseDate: 2026
+        url: https://debottam-dutta7.github.io/tilt_web/
+        summary: Training-free compositional text-to-image generation via test-time alignment to a model-intrinsic reward.
+
+      - title: "Steer Away From Mode Collisions: Improving Composition In Diffusion Models"
         authors:
           - Debottam Dutta
           - Jianchong Chen
