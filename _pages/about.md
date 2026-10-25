@@ -28,7 +28,7 @@ Hi there! I'm Jianchong Chen 👋
 
 I'm a first-year **MSECE** student at the University of Illinois Urbana-Champaign, having just completed my undergraduate studies in the joint Computer Engineering program between **Zhejiang University** and **UIUC**.
 
-Since my undergraduate years, I've been a Research Assistant in the [Signals and Inference Research Group (SiNRG)](https://sinrg.csl.illinois.edu/), where I'm very fortunate to be advised by [Prof. Romit Roy Choudhury](https://croy.web.engr.illinois.edu/) — work I'm continuing now as a graduate student, at the intersection of generative modeling and signal processing.
+Since my undergraduate years, I've been a Research Assistant in the [Signals and Inference Research Group (SiNRG)](https://sinrg.csl.illinois.edu/), where I'm very fortunate to be advised by [Prof. Romit Roy Choudhury](https://croy.web.engr.illinois.edu/) — work I'm continuing now as a graduate student, focused on generative modeling.
 
 I completed my undergraduate thesis under the guidance of [Prof. Bo Zhao](https://zjui.intl.zju.edu.cn/en/team/teacherinfo/2736), whose expertise in computational imaging and inverse problems shaped how I approach research.
 
@@ -36,7 +36,7 @@ I completed my undergraduate thesis under the guidance of [Prof. Bo Zhao](https:
   <span>Diffusion Models</span>
   <span>Flow Matching</span>
   <span>Generative Modeling</span>
-  <span>Source Separation</span>
+  <span>Text-to-Image Generation</span>
 </div>
 
 ---

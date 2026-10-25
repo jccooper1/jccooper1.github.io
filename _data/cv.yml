@@ -3,7 +3,7 @@ cv:
   label: MSECE Student
   location: Urbana, Illinois, United States
   image: uiuc_logo.svg
-  summary: Jianchong Chen is an MSECE student at the University of Illinois Urbana-Champaign, having completed his undergraduate studies in the joint Computer Engineering program between Zhejiang University and UIUC. He is a Research Assistant in the [Signals and Inference Research Group](https://sinrg.csl.illinois.edu/), where he is very fortunate to be advised by [Prof. Romit Roy Choudhury](https://croy.web.engr.illinois.edu/). His research interests span generative modeling and signal processing.
+  summary: Jianchong Chen is an MSECE student at the University of Illinois Urbana-Champaign, having completed his undergraduate studies in the joint Computer Engineering program between Zhejiang University and UIUC. He is a Research Assistant in the [Signals and Inference Research Group](https://sinrg.csl.illinois.edu/), where he is very fortunate to be advised by [Prof. Romit Roy Choudhury](https://croy.web.engr.illinois.edu/). His research focuses on generative modeling.
 
   email: jc131@illinois.edu
   website: https://jccooper1.github.io
@@ -54,7 +54,7 @@ cv:
         end_date: present
         summary: Research Assistant in the [Signals and Inference Research Group (SiNRG)](https://sinrg.csl.illinois.edu/), advised by [Prof. Romit Roy Choudhury](https://croy.web.engr.illinois.edu/).
         highlights:
-          - Working on source separation, diffusion models, flow matching, NeRFs, text-to-image models, and their applications.
+          - Working on diffusion models, flow matching, NeRFs, text-to-image models, and their applications.
 
     Publications:
       - title: "CO3: Contrasting Concepts Compose Better"
@@ -69,18 +69,6 @@ cv:
         url: https://debottam-dutta7.github.io/co3_web/
         summary: Work on improving concept composition in diffusion-based text-to-image generation.
 
-      - title: Unsupervised Multi-channel Speech Dereverberation via Diffusion
-        authors:
-          - Yulun Wu
-          - Zhongweiyang Xu
-          - Jianchong Chen
-          - Zhong-Qiu Wang
-          - Romit Roy Choudhury
-        publisher: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA)
-        releaseDate: 2025
-        url: https://yulunwu8.github.io/waspaa25_dereverb_demo/
-        summary: Work on unsupervised multi-channel speech dereverberation using diffusion models.
-
     Skills:
       - name: Machine Learning
         icon: fa-solid fa-hashtag
@@ -89,13 +77,6 @@ cv:
           - flow matching
           - generative modeling
           - text-to-image models
-
-      - name: Signal Processing
-        icon: fa-solid fa-wave-square
-        keywords:
-          - source separation
-          - speech dereverberation
-          - multi-channel audio
 
       - name: Tools
         icon: fa-solid fa-code
