@@ -26,7 +26,7 @@ latest_posts:
 
 <h1 class="hero-title">Hi there! I'm <span class="hero-name">Jianchong Chen</span> <span class="wave" aria-hidden="true">👋</span></h1>
 
-I'm a first-year **MSECE** student at the <span class="uni"><img class="uni-icon" src="{{ '/assets/img/uiuc_icon.svg' | relative_url }}" alt="">University of Illinois Urbana-Champaign</span>, having just completed my undergraduate studies in the joint Computer Engineering program between <span class="uni"><img class="uni-icon round" src="{{ '/assets/img/zju_emblem.svg' | relative_url }}" alt=""><strong>Zhejiang University</strong></span> and <span class="uni"><img class="uni-icon" src="{{ '/assets/img/uiuc_icon.svg' | relative_url }}" alt=""><strong>UIUC</strong></span>.
+I'm a first-year **MSECE** student at the <span class="uni"><img class="uni-icon" src="{{ '/assets/img/uiuc_icon.svg' | relative_url }}" alt="" width="18" height="18">University of Illinois Urbana-Champaign</span>, having just completed my undergraduate studies in the joint Computer Engineering program between <span class="uni"><img class="uni-icon round" src="{{ '/assets/img/zju_emblem.svg' | relative_url }}" alt="" width="18" height="18"><strong>Zhejiang University</strong></span> and <span class="uni"><img class="uni-icon" src="{{ '/assets/img/uiuc_icon.svg' | relative_url }}" alt="" width="18" height="18"><strong>UIUC</strong></span>.
 
 Since my undergraduate years, I've been a Research Assistant in the [Signals and Inference Research Group (SiNRG)](https://sinrg.csl.illinois.edu/), where I'm very fortunate to be advised by [Prof. Romit Roy Choudhury](https://croy.web.engr.illinois.edu/) — work I'm continuing now as a graduate student, focused on generative modeling.
 
